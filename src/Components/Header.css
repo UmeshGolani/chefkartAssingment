@@ -1,0 +1,36 @@
+.header {
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date-picker input,
+.time-picker input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.cuisine-selector {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.cuisine-selector button {
+    padding: 10px;
+    margin: 0 5px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.cuisine-selector .active {
+    background-color: #ffa;
+}

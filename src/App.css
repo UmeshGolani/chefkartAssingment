@@ -1,38 +1,151 @@
 .App {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cuisine-selector {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.cuisine-selector button {
+  padding: 10px;
+  margin: 0 5px;
+  border: none;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.cuisine-selector .active {
+  background-color: #ffa;
+}
+
+.popular-dishes {
+  padding: 20px;
+}
+
+.dishes-list {
+  display: flex;
+  overflow-x: auto;
+}
+
+.dish-item {
+  min-width: 80px;
+  margin-right: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.recommended {
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dish-card {
+  display: flex;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dish-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.dish-info {
+  padding: 10px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.recipe {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 14px;
+  color: #666;
+}
+
+.time {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 10px;
+  font-size: 14px;
 }
 
-.App-link {
-  color: #61dafb;
+.ingredients, .appliances {
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ingredients h2, .appliances h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.ingredients p {
+  font-size: 14px;
+  color: #666;
+}
+
+.section {
+  margin-top: 10px;
+}
+
+.section h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.section ul li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.appliance-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.appliance {
+  text-align: center;
 }

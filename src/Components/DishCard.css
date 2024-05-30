@@ -1,0 +1,38 @@
+.dish-card {
+    display: flex;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.dish-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.dish-info {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dish-info h3 {
+    margin: 0 0 10px 0;
+}
+
+.dish-info p {
+    margin: 5px 0;
+}
+
+.dish-info button {
+    padding: 10px;
+    background-color: #ffa;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    align-self: flex-start;
+}
